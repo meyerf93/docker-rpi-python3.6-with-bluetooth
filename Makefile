@@ -1,5 +1,5 @@
-DOCKER_IMAGE_VERSION=3.4.2-3
-DOCKER_IMAGE_NAME=don41382/rpi-python3-with-bluetooth
+DOCKER_IMAGE_VERSION=4.0.0
+DOCKER_IMAGE_NAME=neighborhub/rpi-python3.6-with-bluetooth
 DOCKER_IMAGE_TAGNAME=$(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_VERSION)
 
 default: build
